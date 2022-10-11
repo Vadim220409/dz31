@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    height: 100vh;
+    background-image: url(./pexels-mike-b-2365572.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.menu {
+    height: 100px;
+    background-color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    height: 80%;
+    margin-right: 20px;
+}
+
+.links {
+    width: 100%;
+    max-width: 600px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.link {
+    font-family: 'Merriweather', serif;
+    color: black;
+    text-decoration: none;
+}
+
+.link:hover {
+    text-decoration: underline;
+}
